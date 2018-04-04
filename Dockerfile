@@ -1,4 +1,4 @@
-FROM node:8.6.0-alpine
+FROM node
 
 RUN npm install --save-dev jest -g 
 
